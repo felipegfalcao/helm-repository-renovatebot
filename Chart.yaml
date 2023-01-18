@@ -1,0 +1,9 @@
+apiVersion: v2
+name: grafana-ha
+description: Grafana proxy chart
+version: 1.0.0
+
+dependencies:
+  - name: grafana
+    version: 6.48.0
+    repository: https://grafana.github.io/helm-charts
