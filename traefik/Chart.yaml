@@ -1,0 +1,9 @@
+apiVersion: v2
+name: traefik
+description: traefik proxy chart
+version: 1.0.0
+
+dependencies:
+  - name: traefik
+    version: 20.7.0
+    repository: https://traefik.github.io/charts
